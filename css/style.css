@@ -1,0 +1,43 @@
+body {
+text-align: center;
+}
+#footer{
+margin: 0 auto;
+width: 250px;
+height: 50px;
+}
+
+#footer ul li {
+float: left;
+
+}
+.add {
+font-family: Verdana;
+text-tansform: uppercase;
+margin-left: 10px;
+display: none;
+padding-top: 60px;
+float: none !important;
+}
+
+
+
+#footer ul li img {
+transform: rotate(30deg);
+-moz-transition: all 100ms ease;
+-webkit-transition: all 100ms ease;
+-o-transition: all 100ms ease;
+transition: all 100ms ease;
+-ms-transform: rotate(30deg);
+-webkit-transform: rotate(30deg);
+}
+
+#footer ul li img:hover {
+transform: rotate(0deg);
+-ms-transform: rotate(0deg);
+-webkit-transform: rotate(0deg);
+}
+
+#footer ul span {
+vertical-align: middle;
+}
